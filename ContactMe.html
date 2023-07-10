@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="content2">
+    <nav>
+        <h2 class="site">Web<span>Site</span></h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutMe.html">About me</a></li>
+            <li><a href="MyTrips.html">My trips</a></li>
+            <li><a href="ContactMe.html" id="current">Contact me</a></li>
+        </ul>
+    </nav>
+    <div>
+        <div class="contact">
+            <h2>Contact <span>ME</span></h2>
+        </div>
+        <form action="">
+            <fieldset>
+                <legend>Book your trip</legend>
+                <div class="contact-text">
+                <p>Name:</p>
+                    <input type="text" name="name" placeholder="Your name">
+                <p>Surname:</p>
+                    <input type="text" placeholder="Your surname">
+                <p>Phone number:</p>
+                    <input type="tel" placeholder="+389 ## ### ###">
+                <p>Email:</p>
+                    <input type="email" placeholder="name@domain.com">
+                </div>
+                <div class="contact-travel">
+                <p>Where would you like to travel?</p>
+                <select name="country">
+                    <option>Choose...</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Italy">Italy</option>
+                    <option value="England">England</option>
+                    <option value="Spain">Spain</option>
+                    <option value="France">France</option>
+                    <option value="Egypt">Egypt</option>
+                </select>
+                    </br>
+                    <p>Choose a date:</p>
+                    <p>From:<input type="date"></p> <p>To:<input type="date"></p>
+                    <p>Give your opinion:</p><textarea placeholder="Write something..."></textarea>
+                </div>
+                <input type="submit" value="Send">
+            </fieldset>
+        </form>
+        <p id="details">For more details visit my page <a href="#">here.</a></p>
+    </div>
+</div>
+</body>
+</html>
